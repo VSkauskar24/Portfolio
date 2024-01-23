@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-size: 20px; */
+    /* background-color: black; */
+    scroll-behavior: smooth;
+
+}
+
+.container{
+    /* width: 100%; */
+    /* height: 100%; */
+    background-color: black;
+    
+    /* border: 2px solid red; */
+    /* margin-top: 20px; */
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    /* border: 2px solid white; */
+    /* position: fixed; */
+    display: flex;
+    /* margin-top: 10px; */
+    text-align: center;
+    background-color:  aqua;
+    margin-top: 0px;
+    /* padding-top: 50px; */
+    text-align: center;
+    
+}
+.hero{
+    margin-top: 5px;
+}
+.heading{
+     color: black;
+     /* border: 2px solid black; */
+     margin-left: 35px;
+     display: flex;
+
+}
+#vk{
+    color: black;
+}
+
+
+.navlist ul {
+    display: flex;
+    /* border: 2px solid black; */
+    width: 500px;
+    height: 60px;
+    align-items: center;
+    position: absolute;
+    right: 90px;
+    justify-content: space-between;
+    
+}
+.navlist li{
+    list-style: none;
+    margin: 25px;
+    font-size: 25px;
+    font-weight: 700;
+    /* position: absolute; */
+    
+}
+
+.navlist a {
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navlist a:hover{
+    text-shadow: 0 0 15px black, 0 0 25px black, 0 0 35px black,0 0 45px black;
+    color: white;
+}
+.hero{
+    width: 90vw;
+    height: 500px;
+    /* border: 2px solid black; */
+    margin-left: 55px;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+}
+.info {
+    width: 80%;
+    height: 100%;
+    /* border: 2px solid black; */
+    color: white;
+    
+}
+.info h1 {
+    font-size: 30px;
+}
+.info p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #d7c8c8;
+}
+.info h3 {
+    margin-top: 20px;
+    font-weight: 700;
+    color: white;
+}
+#email{
+    color: aqua;
+}
+
+.img1{
+    width: 70%;
+    max-width: 100%;
+    height: 500px;
+    border: 2px solid black;
+    margin-left: 20px;
+    background-image: url(p.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    border-radius: 50%;
+    box-shadow: 0 0 30px aqua;
+  
+    
+}
+.contact-button{
+    width: 350px;
+    display: flex;
+    margin-top: 30px;
+    height: 50px;
+    /* border: 2px solid black; */
+
+}
+#second{
+    margin-left: 50px;
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: aqua;
+    border: 2px solid aqua;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 0 0 20px aqua;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+}
+#second button{
+    font-size: 20px;
+    align-items: center;
+    background-color: aqua;
+    border: none;
+    font-weight: 700;
+}
+#second button:hover{
+    background-color: transparent;
+    color: white;
+
+}
+
+
+#second:hover{
+    background-color: transparent;
+    color: white;
+}
+#first-button{
+    color: white;
+    text-decoration: none;
+}
+#first-button:hover{
+     color: black;
+}
+#first{
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid aqua;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 0 0 20px aqua;
+
+}
+#first:hover{
+    background-color: aqua;
+}
+
+/* now the about section is start  */
+
+
+.maine{
+    height: 100%;
+    width: 50%;
+    /* border: 3px solid white; */
+    position: absolute;
+    right: 20px;
+    /* margin-top: 10px; */
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(236, 226, 226);
+    background-color: black;
+    
+}
+.maine h1 {
+    color: aqua;
+}
+
+.read-button2 {
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: aqua;
+    font-size: 20px;
+    font-weight: 600;
+   
+
+    
+}
+.read-button2:hover{
+    box-shadow: 0 0 20px aqua;
+
+}
+.read-button2 a {
+    text-decoration: none;
+    color: black;
+   
+}
+.img2{
+    /* border: 2px solid white; */
+    width:40% ;
+    height: 600px;
+    /* position: absolute; */
+    /* top: 150px; */
+    /* left: 25px; */
+    background-image: url(hk1.png);
+    background-size: cover;
+    margin: 30px;
+    border-radius: 50%;
+    /* background: linear-gradient(to top , black,rgb(30, 236, 236)); */
+}
+.row{
+    display: flex;
+}
+#about{
+    background-color: black;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+    margin-top: 5px;
+}
+
+
+/* services srction is start  */
+
+#services{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid red; */
+    background-color: black;
+    margin-top: 5px;
+    /* display: flex; */
+
+}
+
+.services-para{
+    width: 40%;
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(236, 226, 226);
+    margin-left: 20px;
+}
+.services-para h1 {
+    color: aqua;
+}
+
+.img3{
+    border: 2px solid white;
+    width:45% ;
+    height: 350px;
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    background-image: url(services.jpg);
+    background-size: contain;
+    margin-top: 20px;
+    position: absolute;
+    top: 100rem;
+}
+.read-button {
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: aqua;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.read-button:hover{
+    box-shadow: 0 0 20px aqua;
+}
+.read-button a {
+    text-decoration: none;
+    color: black;
+}
+
+/* now skill section is start  */
+
+#skill{
+    background-color: black;
+    margin-top: 5px;
+}
+
+#skillheading{
+    text-align: center;
+    color: aqua;
+    text-decoration:underline;
+
+}
+.tech-skill h2 {
+    color: aqua;
+}
+.tech-skill {
+    /* border: 2px solid red; */
+    margin-left: 30px;
+    position: relative;
+    align-items: center;
+    /* text-align: center; */
+   
+    
+}
+
+ .list-heading {
+    font-size: 20px;
+    color: aqua;
+
+}
+ .list-para  {
+    color: white;
+}
+
+#mainesection {
+    width: 50%;
+    /* display: flex; */
+}
+.img4{
+    /* border: 2px solid white; */
+    width: 600px;
+    height: 400px;
+    position:absolute;
+    /* top: 200px; */
+    right: 50px;
+    /* background-size: cover;
+    background-image: url(coder.jpg); */
+    /* position: absolute; */
+    top: 350%;
+    /* left: 10px; */
+}
+.read-button {
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: aqua;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px;
+}
+.read-button:hover{
+    box-shadow: 0 0 20px aqua;
+}
+.read-button a {
+    text-decoration: none;
+    color: black;}
+
+/* now the contact page is :start  */
+.contact{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 30px;
+}
+.contact h1 {
+    color:aqua;
+    margin-bottom: 50px;
+}
+.facebook{
+    color: aqua;
+    /* border: 2px solid white; */
+    margin: 100px;
+    margin-top: 1000px;
+    font-size: 50px;
+    width: 10px;
+    height: 10px;
+
+}
+
+/* this is for phone  */
+@media only screen and (max-width : 600px){
+
+    
+}
